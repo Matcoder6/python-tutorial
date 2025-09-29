@@ -2,9 +2,12 @@ todos = []
 
 
 for _ in range(100000):
+    print("")
     print("Was willst du tun?")
+    print("")
     print("(1) To-dos anzeigen")
     print("(2) To-dos hinzufügen")
+    print("")
 
     option = input("Bitte auswählen: ")
 
